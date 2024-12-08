@@ -12,4 +12,4 @@ Aim of this repository is to house all the efforts that I will make to solve the
 ## Conclusion
 Feel free to share your feedback via review or by opening an issue.
 
-Happy coding!ö
+Happy coding!
