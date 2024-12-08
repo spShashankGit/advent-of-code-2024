@@ -1,4 +1,4 @@
-# Advenet of Code 2024
+# Advent of Code 2024
 
 Advent of code is an online coding challenge, existing since 2018. The rules to participate are simple:
 1. One coding puzzle will be available very morning.
