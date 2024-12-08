@@ -24,6 +24,9 @@ example: # a a #
 ..........
 ..........
 
+Reference:
+1. Online:  https://adventofcode.com/2024/day/8
+2. Offline: ../../questions/advent-of-code-2024/day-8.md
 
 """
 
