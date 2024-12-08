@@ -7,8 +7,12 @@ Input text is a text with following contstraints:
 
 
 Aim:
-1. Find out how many unique antenna positions could be there.
-1.1 To do we need to find out how many of the 
+1. Calculate the total number of unique antinode positions.
+Sub objective:
+1. Identify all valid nodes.
+2. Calculate distance between the nodes of same type.
+3. Determine the potential positions for antinoces using the provided constraints.
+
 
 Concepts important for problem solving:
 1. Antinodes: An antinote occurs at a point that is perfectly in line with the two antennas of the same frequeny
@@ -30,12 +34,19 @@ example: # a a #
 Reference:
 1. Online:  https://adventofcode.com/2024/day/8
 2. Offline: ../questions/advent-of-code-2024/day-8.md
-
 """
-import os
-print("Current Working Directory:", os.getcwd())
+
 print('Advent of Code 2024 - Day 8')
-filec = '../../inputs/advent-day-8/input-set-1.txt'
+first_input_set = '../../inputs/advent-day-8/input-set-1.txt'
+
+def parseInput(file_path):
+    with open(file_path, 'r') as file:
+        for line in file:
+            print(line.strip())  # strip() removes leading/trailing whitespace
+        return file
+
+# Get the contect of file by providing file path
+first_input_set = parseInput(first_input_set)
 
 """
 # Defining the approach
@@ -45,7 +56,3 @@ filec = '../../inputs/advent-day-8/input-set-1.txt'
 4. Identify the potential antinode position(s) based on the distance between the two nodes and also the positiong inside 
 """
 
-with open(filec, 'r') as file:
-    for line in file:
-        print(line.strip())  # strip() removes leading/trailing whitespace
-        #line.find()
